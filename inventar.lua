@@ -1,8 +1,8 @@
 function main (g) -- {**
     local out = ""
 
-    local sachverhalt = g .. "# Sachverhalt\n\n" .. InputData.sachverhalt .."\n\n"
-    local aufgaben = "\n\n" .. g .. "# Aufgaben\n\n" .. InputData.aufgaben .. "\n\n"
+    local sachverhalt = g .. "# YYSachverhalt\n\n" .. InputData.sachverhalt .."\n\n"
+    local aufgaben = "\n\n" .. g .. "# YYAufgaben\n\n" .. InputData.aufgaben .. "\n\n"
 
     SummeAV = 0
     SummeUV = 0

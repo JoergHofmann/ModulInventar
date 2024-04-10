@@ -1,24 +1,136 @@
-<div id="{{AgId}}" class="invListe">
-   <form id="f{{AgId}}" name="f{{AgId}}">
-       <table>
-          <tr class="kopfzeile">
-             <th class="bezeichnung">Bezeichnung</th>
-             <th class="menge">Menge</th>
-             <th class="zahlenspalte">Wert</th>
-             <th class="zahlenspalte">Gesamt</th>
-             <th></th>
-          </tr>
-          <tr id="{{AgId}}_inv0" data-rang="1" class="list-element" draggable = "true">
-             <td class="bezeichnung">Vermögen</td>
-             <td class="menge">></td>
-             <td class="zahlenspalte"></td>
-            <td class="zahlenspalte"></td>
-            <td id="{{AgId}}_kor0" class="korrektur"></td>
-          </tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+<tr>
+></td>
+   <td></td>
+   <td></td>
+   <td></td>
+</tr>
+
+
+
+
+
 <tr id="{{AgId}}_inv1" data-rang="2" class="list-element" draggable = "true">
    <td class="bezeichnung">Anlagevermögen</td>
-   <td class="menge"></td>
-   <td class="zahlenspalte"></td>
+   <td class="menge"></td><td class="zahlenspalte"></td>
    <td class="zahlenspalte"></td>
    <td id="{{AgId}}_kor1" class="korrektur"></td>
 </tr>
@@ -79,14 +191,11 @@
    <td class="zahlenspalte">{{Gesamt}}</td>
    <td id="{{AgId}}_kor{{Index}}" class="korrektur"></td>
 </tr>
-{{/inventar}}
-<tr class="fusszeile">
-   <td><button type="button" id="pruefen">Prüfen</button></td>
-             <td><button type="button" id="neu">Neu</button></td>
-             <td></td>
-             <td></td>
-             <td></td>
-          </tr>   
-       </table>
+   {{/inventar}}
+   <tr class="fusszeile">
+       <button type="button" id="pruefen">Prüfen</button>
+       <button type="button" id="neu">Neu</button>
+       <td id="{{AgId}}_Auswertung" class="auswertung"></td>
+   </tr>
    </form>
-</div>
+</tr>
